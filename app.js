@@ -7,7 +7,20 @@ function wordUp(message) {
 
 wordUp('word');
 
+function getWords(message) {
+    console.log(`Hey brother, ${message}`);
+    setTimeout(function() {
+        console.log('Hey brother, word');
+    }, 3000);
+    setTimeout(function() {
+        console.log('Hey sister, word');
+    }, 2000);
+    setTimeout(function() {
+        console.log('Hey little man, word');
+    }, 1000);
+};
 
+getWords('word');
 
 
 
