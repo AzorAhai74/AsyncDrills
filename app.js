@@ -22,5 +22,12 @@ function getWords(message) {
 
 getWords('word');
 
+function done() {
+    console.log('Job\'s Done!');
+};
 
+done();
 
+function countdown(num, callback) {
+    
+}
